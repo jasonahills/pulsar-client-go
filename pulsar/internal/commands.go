@@ -28,7 +28,7 @@ import (
 
 const (
 	// MaxFrameSize limit the maximum size that pulsar allows for messages to be sent.
-	MaxFrameSize        = ^uint(0)
+	MaxFrameSize        = ^uint32(0)
 	magicCrc32c  uint16 = 0x0e01
 )
 
