@@ -21,16 +21,14 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/golang/protobuf/proto"
-
-	log "github.com/sirupsen/logrus"
-
 	"github.com/apache/pulsar-client-go/pkg/pb"
+	"github.com/golang/protobuf/proto"
+	log "github.com/sirupsen/logrus"
 )
 
 const (
 	// MaxFrameSize limit the maximum size that pulsar allows for messages to be sent.
-	MaxFrameSize        = 5 * 1024 * 1024
+	MaxFrameSize        = 5 * 1024 * 1024 * 1024
 	magicCrc32c  uint16 = 0x0e01
 )
 
