@@ -20,7 +20,7 @@ package pulsar
 import (
 	"context"
 	"fmt"
-	"github.com/apache/pulsar-client-go/pulsar/internal"
+	"github.com/jasonahills/pulsar-client-go/pulsar/internal"
 	"net/http"
 	"sync"
 	"testing"

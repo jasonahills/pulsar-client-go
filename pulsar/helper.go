@@ -20,10 +20,9 @@ package pulsar
 import (
 	"fmt"
 
+	"github.com/jasonahills/pulsar-client-go/pkg/pb"
+	"github.com/jasonahills/pulsar-client-go/pulsar/internal"
 	pkgerrors "github.com/pkg/errors"
-
-	"github.com/apache/pulsar-client-go/pkg/pb"
-	"github.com/apache/pulsar-client-go/pulsar/internal"
 )
 
 // NewUnexpectedErrMsg instantiates an ErrUnexpectedMsg error.

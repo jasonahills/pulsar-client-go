@@ -25,7 +25,7 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"github.com/apache/pulsar-client-go/pkg/pb"
+	"github.com/jasonahills/pulsar-client-go/pkg/pb"
 )
 
 type messageID struct {

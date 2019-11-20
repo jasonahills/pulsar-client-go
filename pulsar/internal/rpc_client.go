@@ -22,7 +22,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/apache/pulsar-client-go/pkg/pb"
+	"github.com/jasonahills/pulsar-client-go/pkg/pb"
 	"github.com/golang/protobuf/proto"
 )
 

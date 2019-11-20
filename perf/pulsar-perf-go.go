@@ -29,7 +29,7 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/apache/pulsar-client-go/pulsar"
+	"github.com/jasonahills/pulsar-client-go/pulsar"
 )
 
 // global flags

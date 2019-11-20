@@ -21,7 +21,7 @@ import (
 	"net/url"
 	"sync"
 
-	"github.com/apache/pulsar-client-go/pkg/auth"
+	"github.com/jasonahills/pulsar-client-go/pkg/auth"
 
 	log "github.com/sirupsen/logrus"
 )

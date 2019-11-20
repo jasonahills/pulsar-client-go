@@ -22,7 +22,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/apache/pulsar-client-go/pulsar/internal"
+	"github.com/jasonahills/pulsar-client-go/pulsar/internal"
 )
 
 func TestSingleMessageIDNoAckTracker(t *testing.T) {

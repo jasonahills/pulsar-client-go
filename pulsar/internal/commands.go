@@ -21,7 +21,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/apache/pulsar-client-go/pkg/pb"
+	"github.com/jasonahills/pulsar-client-go/pkg/pb"
 	"github.com/golang/protobuf/proto"
 	log "github.com/sirupsen/logrus"
 )
